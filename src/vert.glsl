@@ -1,7 +1,7 @@
-#version 130
-in vec3 aPos;
-in vec2 aTexCoord;
-out vec2 texcoord;
+#version 120
+attribute vec3 aPos;
+attribute vec2 aTexCoord;
+varying vec2 texcoord;
 
 uniform vec2 cameraPos;
 uniform float cameraScale;
